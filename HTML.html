@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - World's Largest Audio Listening Platform</title>
+
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="CSS.css" />
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="Responsive CSS.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome icons/css/all.css">
+
+</head>
+
+<body>
+    <!-- Nav bar  -->
+    <nav id="nav">
+        <ul>
+            <li>
+                <div>
+                    <img src="images/logo.png" alt="spotify" />
+                    <span> Spotify</span>
+                </div>
+            </li>
+            <li>Home</li>
+            <li>Artists</li>
+            <li>Library</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <!-- Main Content(Songs/Playlist) -->
+    <div id="songs-container">
+        <h2 id="playlistname">Beast Mode ON !!</h2>
+
+        <!-- Songs by NEFFEX  -->
+        <div class="songitems">
+            <!-- JavaScript is used to add path to the Image -->
+            <img class="posters" />
+            <span class="songnames"></span>
+            <i id="0" class="fa-solid fa-circle-play playmusic"></i>
+        </div>
+
+        <div class="songitems">
+            <img class="posters" />
+            <span class="songnames"></span>
+            <i id="1" class="fa-solid fa-circle-play playmusic"></i>
+        </div>
+
+        <div class="songitems">
+            <img class="posters" />
+            <span class="songnames"></span>
+            <i id="2" class="fa-solid fa-circle-play playmusic"></i>
+        </div>
+
+        <div class="songitems">
+            <img class="posters" />
+            <span class="songnames"></span>
+            <i id="3" class="fa-solid fa-circle-play playmusic"></i>
+        </div>
+
+        <div class="songitems">
+            <img class="posters" />
+            <span class="songnames"></span>
+            <i id="4" class="fa-solid fa-circle-play playmusic"></i>
+        </div>
+
+        <div class="songitems">
+            <img class="posters" />
+            <span class="songnames"></span>
+            <i id="5" class="fa-solid fa-circle-play playmusic"></i>
+        </div>
+
+        <div class="songitems">
+            <img class="posters" />
+            <span class="songnames"></span>
+            <i id="6" class="fa-solid fa-circle-play playmusic"></i>
+        </div>
+
+        <div class="songitems">
+            <img class="posters" />
+            <span class="songnames"></span>
+            <i id="7" class="fa-solid fa-circle-play playmusic"></i>
+        </div>
+
+        <div class="songitems">
+            <img class="posters" />
+            <span class="songnames"></span>
+            <i id="8" class="fa-solid fa-circle-play playmusic"></i>
+        </div>
+
+        <div class="songitems">
+            <img class="posters" />
+            <span class="songnames"></span>
+            <i id="9" class="fa-solid fa-circle-play playmusic"></i>
+        </div>
+
+        <div class="songitems">
+            <img class="posters" />
+            <span class="songnames"></span>
+            <i id="10" class="fa-solid fa-circle-play playmusic"></i>
+        </div>
+
+    </div>
+
+    <!-- Song Toolbar -->
+    <div id="songmenu">
+
+        <div class="progressbar">
+            <input type="range" name="" id="progressbar" min="0" max="100" value="0" />
+        </div>
+
+        <div class="songInfo">
+            <div class="first-sec">
+                <img src="images/playing.jpg" id="gif">
+                <span id="menuSongname">Best of Me</span> <!-- default Song name  -->
+            </div>
+            <div class="second-sec">
+                <i class="fa-solid fa-backward" id="previous"></i>
+                <i class="fa-solid fa-play" id="menuplay"></i>
+                <i class="fa-solid fa-forward" id="next"></i>
+            </div>
+            <div class="third-sec">
+                <input type="range" name="" id="volume" min="0" max="100" value="100" />
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="JS.js"></script>
+
+</html>
